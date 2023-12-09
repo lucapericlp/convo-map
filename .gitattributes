@@ -1,0 +1,4 @@
+resources/transcript-whisper-turbo-tiny.json filter=lfs diff=lfs merge=lfs -text
+resources/diarized-whisper-large-v2-cordial-curiosity.json filter=lfs diff=lfs merge=lfs -text
+resources/fal-whisper.txt filter=lfs diff=lfs merge=lfs -text
+resources/interview.mp3 filter=lfs diff=lfs merge=lfs -text
