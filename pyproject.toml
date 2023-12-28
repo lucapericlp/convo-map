@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "convo-map"
+version = "0.1.0"
+description = ""
+authors = ["Luca Peric <lucaperic.lp@gmail.com>"]
+readme = "README.md"
+packages = [{include = "convo_map"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mlx = "*"
+numba = "*"
+numpy = "*"
+torch = "*"
+tqdm = "*"
+more-itertools = "*"
+tiktoken = "==0.3.3"
+click = "*"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
