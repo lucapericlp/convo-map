@@ -1,5 +1,18 @@
 # convo-map
 
+## Requirements
+### Memory
+#### LLM
+Phi2
+
+#### ASR
+##### Whisper
+
+Large
+- (1550*1e06 * 4)/1024/1024/1024 = 5.77Gb @ fp32, 2.89Gb @ fp16
+- 631s for 990s of audio
+
+
 ## Purpose
 
 Real-time topic tracking to map out the landscape of a conversation
